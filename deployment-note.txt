@@ -1,0 +1,5 @@
+front-end: 8010
+broker-service: 8020
+auth-service: 8030
+logger-service: 8040
+mail-service: 8050

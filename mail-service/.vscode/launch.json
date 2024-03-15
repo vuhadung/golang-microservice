@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mail-service",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}\\cmd\\api",
+            "env": {
+                "MAIL_DOMAIN": "mailhog", 
+                "MAIL_HOST": "localhost",
+                "MAIL_PORT": "1025",
+                "MAIL_ENCRYPTION": "none",
+                "MAIL_USERNAME": "", 
+                "MAIL_PASSWORD": "",
+                "FROM_NAME": "Dung Vu",
+                "FROM_ADDRESS": "dung.vu@example.com"
+            }
+        }
+    ]
+}
